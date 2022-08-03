@@ -1,0 +1,10 @@
+apiVersion: v2
+name: ocs-operator
+description: Deployment of OpenShift Data Foudnation
+type: application
+version: 0.1.0
+appVersion: "1.0"
+dependencies:
+  - name: odf-operator
+    version: 0.1.3
+    repository: https://cloud-native-toolkit.github.io/toolkit-charts/
